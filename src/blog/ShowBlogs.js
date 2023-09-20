@@ -2,7 +2,7 @@ import axios, { formToJSON } from 'axios'
 import { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
 
-const URI = 'http://54.161.15.196:8000/blogs'
+const URI = 'http://34.228.218.40:8000/blogs/'
 
 const CompShowBlogs = () => {
     const [blogs, setBlog] = useState([])
