@@ -2,7 +2,7 @@ import axios from "axios"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
-const URI = 'http://54.90.182.107:8000/blogs/'
+const URI = 'http://54.161.15.196:8000/blogs'
 
 const CompCreateBlog = () => {
 
